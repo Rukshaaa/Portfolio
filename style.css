@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&family=DM+Serif+Text:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #020202;
+    color: #f8f7f7;
+    line-height: 1.6;
+}
+/* Header Section */
+.main-div{
+    position: relative;
+}
+#header {
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+#header h1 {
+    font-size: 3.5rem;
+}
+
+#header p {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+.container,
+#header .image {
+    width: 80%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+
+/* Flex container for image */
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* border-radius: 70%; */
+
+}
+
+/* Make the image fill the entire box */
+.image img {
+    width: 100%;
+    /* Stretch image to full width */
+    height: 100%;
+    /* Stretch image to full height */
+    object-fit: cover;
+    /* Maintain aspect ratio while covering entire container */
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+span{
+    color: #ff004f;
+}
+
+
+.btn {
+    display: inline;
+    background: #d4003a;
+    color: #0b0808;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: white;
+}
+
+/* About Me Section */
+#about, #projects,#contact {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 5rem;
+   box-sizing: border-box;
+   
+}
+
+.project-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+    text-align: center;
+    /*display: grid;
+        grid-template-rows: subgrid;
+        grid-row: 1/4;*/
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+.project-card p, ul li {
+    color: #142a3c;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+/*technical Skills Section*/
+
+#technicalSkills p, ul li {
+    /* text-align: center; */
+    padding: 0;
+    color: white;
+    text-align: center;
+    flex: 1;
+    list-style: none;
+}
+.tsbox{
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    /* padding:10px; */
+    /* border: 2px solid #000;
+    border-radius: 5px;
+    width: 100%; */
+}
+
+
+/* Contact Section */
+#contact a {
+    color: #ff004f;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Job Experience Section */
+.job-experience-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.job-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: left;
+    color: #142a3c;
+}
+
+.job-card ul li {
+    margin-bottom: 8px;
+}
+
+/* Extracurriculars Section */
+.extracurricular-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.extracurricular-card {
+    padding: 20px;
+    border-radius: 6px;
+    text-align: start;
+    color: #e71d1d;
+
+}
+
+.extracurricular-card img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.grid1{
+    display: grid;
+}
+.flex1 {
+    justify-content: left;
+}
+.flex2{
+    justify-content: right;
+}
+.mainflex{
+    display: flex;
+
+}
+.IPALS-Desc{
+    padding: 10px, 0;
+    margin: 10px 0;
+    font-size: 1.25rem;
+            font-family: "Baloo Paaji 2", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+}
+.IPALS-Desc ul li {
+    text-align: start;
+}
