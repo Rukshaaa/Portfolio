@@ -1,222 +1,464 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruksha Khadka</title>
+    <title>Ruksha Khadka - Cybersecurity Student</title>
+    <meta name="description" content="Ruksha Khadka - Third-year Cybersecurity and Data Technology student at University of Cincinnati">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <!-- Header Section -->
-            <header id="header">
-                <div class="container">
-                    <h1> <span>Ruksha khadka</span></h1>
-                    <p>Student | Cybersecurity | Data Technology</p></div>
-                    <div class="image"><img src="images/headshot1.png" alt="image" height="auto" width="auto"> </div>
-            </header>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">RK</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
         </div>
-    </div>
+    </nav>
 
-    <!-- About Me Section -->
-    <section id="about">
-        <a href="Resume.html" class="btn">View Resume</a>
-        <a href="#projects" class="btn">View Projects</a>
-        <a href="#technicalSkills" class="btn">View TechnicalSkills</a>
-        <a href="#Experience" class="btn">View Job Experience</a>
-        <a href="ExtraCurriculars.html" class="btn">View Extracurriculars</a>
-        
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hello, I'm</span>
+                        <span class="name">Ruksha Khadka</span>
+                        <span class="title">Cybersecurity Student | Future Ethical Hacker | Tech Enthusiast</span>
+                    </h1>
+                    <p class="hero-description">
+                        Passionate about building secure systems, analyzing data, and creating innovative solutions. 
+                        Currently pursuing Cybersecurity and Data Technology at the University of Cincinnati.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-block">
+                        <div class="code-header">
+                            <span class="code-dot red"></span>
+                            <span class="code-dot yellow"></span>
+                            <span class="code-dot green"></span>
+                        </div>
+                        <div class="code-content">
+                            <div class="code-line"><span class="code-keyword">def</span> <span class="code-function">secure_system</span>():</div>
+                            <div class="code-line">    <span class="code-keyword">return</span> <span class="code-string">"Cybersecurity Excellence"</span></div>
+                            <div class="code-line"></div>
+                            <div class="code-line"><span class="code-comment"># Building the future of secure technology</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-arrow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
         <div class="container">
-            <h2>About Me</h2>
-            <p>Hello! I’m Ruksha Khadka, a passionate Cybersecurity and Data Technology student at the University of Cincinnati with
-            hands-on experience in programming, data analysis, and IT solutions. I’ve built projects ranging from AI-based
-            misinformation detection tools to interactive Power BI dashboards and dynamic web applications. Skilled in Python,
-            PowerShell, SQL, and front-end technologies, I enjoy solving complex challenges, automating tasks, and uncovering
-            insights through data. Beyond academics, I'm active on campus being a part of various clubs and organizations. 
-            Whether it’s designing secure systems, visualizing data, or collaborating on
-            innovative solutions, I’m committed to driving technology forward with creativity and precision.</p>
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        Hello! I'm Ruksha Khadka, a passionate Cybersecurity and Data Technology student at the University of Cincinnati 
+                        with hands-on experience in programming, data analysis, and IT solutions. I've built projects ranging from 
+                        AI-based misinformation detection tools to interactive Power BI dashboards and dynamic web applications.
+                    </p>
+                    <p class="about-description">
+                        Skilled in Python, PowerShell, SQL, and front-end technologies, I enjoy solving complex challenges, 
+                        automating tasks, and uncovering insights through data. Beyond academics, I'm active on campus being a part 
+                        of various clubs and organizations.
+                    </p>
+                    <p class="about-description">
+                        Whether it's designing secure systems, visualizing data, or collaborating on innovative solutions, 
+                        I'm committed to driving technology forward with creativity and precision.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Years Studying</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Technologies</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-links">
+                    <a href="Resume.html" class="about-link">
+                        <span class="link-icon">📄</span>
+                        <span class="link-text">View Resume</span>
+                    </a>
+                    <a href="ExtraCurriculars.html" class="about-link">
+                        <span class="link-icon">🎯</span>
+                        <span class="link-text">Extracurriculars</span>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
+    <section id="projects" class="projects">
         <div class="container">
-            <h2>Projects</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3><span><a href="https://devpost.com/software/misinf-ai" target="_blank">Misinf-AI</a></span></h3>
-                    <img src="images/Misinf-AI.webp" alt="Project 1">
-                    <p> MISINF AI is a real-time browser extension designed to combat misinformation, deepfakes, and AI-altered content. By
-                    analyzing webpages, articles, and videos, it flags questionable sources, provides credibility scores, and empowers users
-                    to make informed decisions online.</p>
-                        <ul>
-                        <li><span>Frontend: HTML, CSS, JavaScript</span></li>
-                        <li><span>Backend: JSON configuration files, APIs (OpenAI, Google Fact-Check)</span></li>
-                        <li><span>Tools: VS Code</span></li>
-                    </ul>
-                    
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://devpost.com/software/misinf-ai" target="_blank" class="project-link">
+                                    <span class="link-icon">🔗</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Misinf-AI</h3>
+                        <p class="project-description">
+                            A real-time browser extension designed to combat misinformation, deepfakes, and AI-altered content. 
+                            Analyzes webpages, articles, and videos to flag questionable sources and provide credibility scores.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">OpenAI API</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="project-card">
-                    <h3><span><a href="https://github.com/poudelef/Vaulty" target="_blank"> Vaulty</a></span></h3>
-                    <img src="images/VAULTY.png" alt="Project 2">
-                    <p>
-                    Vaultly is a secure and accessible platform that empowers small businesses through transparent group funding. By
-                    facilitating trusted collaborations and predictable financial planning, Vaultly helps entrepreneurs grow without relying
-                    on traditional loans or high-interest systems. .</p>
-                    <ul>
-                        <li><span>Frontend: HTML, CSS, JavaScript</span></li>
-                        <li><span>Backend: NodeJs, SQL</span></li>
-                        <li><span>Tools: VS Code</span></li>
-                    </ul>
 
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/poudelef/Vaulty" target="_blank" class="project-link">
+                                    <span class="link-icon">🔗</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Vaulty</h3>
+                        <p class="project-description">
+                            A secure and accessible platform that empowers small businesses through transparent group funding. 
+                            Facilitates trusted collaborations and predictable financial planning.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="project-card">
-                    <h3><span><a href="https://homepages.uc.edu/~khadkara/finalProject/index.html" target="_blank">SavorSpace</a></span></h3>
-                    <img src="images/SavorSpace.png" alt="Project 1">
-                    <p>SavorSpace is an innovative web platform that reimagines the traditional restaurant experience by connecting
-                    culinary enthusiasts and food lovers in a virtual space. It enables aspiring chefs to launch their own kitchens without
-                    the substantial investments associated with physical establishments, while providing consumers with a diverse array of
-                    cuisines in one convenient location.
-                    <ul>
-                        <li><span>Frontend: HTML, CSS, JavaScript</span></li>
-                        <li><span>Backend: PHP, MySQL</span></li>
-                        <li><span>Tools: Visual Studio Code, Adobe Photoshop</span></li>
-                    </ul>
-                    </p>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://homepages.uc.edu/~khadkara/finalProject/index.html" target="_blank" class="project-link">
+                                    <span class="link-icon">🔗</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">SavorSpace</h3>
+                        <p class="project-description">
+                            An innovative web platform that reimagines the traditional restaurant experience by connecting 
+                            culinary enthusiasts and food lovers in a virtual space.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="project-card">
-                    <h3><span><a href="https://github.com/brosnape/Bearcat-Bites" target="_blank">Bearcat Bytes(prototype)</a></span></h3>
-                    <img src="images/BB.png" alt="Project 1">
-                    <p>Bearcat Bites is an intuitive dining hall app designed to enhance the campus dining experience for students and faculty.
-                    By providing real-time traffic data, weekly menus, nutritional information, and navigation assistance, it ensures users
-                    can make informed dining choices and find the most efficient routes to dining halls.</p>
-                    <ul>
-                    </ul>                   
-                    
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/brosnape/Bearcat-Bites" target="_blank" class="project-link">
+                                    <span class="link-icon">🔗</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Bearcat Bites</h3>
+                        <p class="project-description">
+                            An intuitive dining hall app designed to enhance the campus dining experience with real-time 
+                            traffic data, weekly menus, and nutritional information.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Mobile App</span>
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">API Integration</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-<!--Technical skills section-->
-        <section id="technicalSkills">
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
         <div class="container">
-        <h2 style="text-align: center;">Technical skills</h2>
-        <div class="tsbox">
-
-            <div class='left-box' > <span>Programming</span>
-            <ul>
-                <li> Python</li>
-                <li> Powershell</li>
-                <li> Java</li>
-                <li> HTML</li>
-                <li> CSS</li>
-                <li>JavaScript</li>
-                <li>SQL</li>
-            </ul>
-            </div> 
-            <div class='center-box'> <span> Tools/Technologies</span>
-            <ul>
-                <li> WireShark</li>
-                <li> Packet Tracer</li>
-                <li> Raspberry Pi</li>
-                <li> CentOS Linux</li>
-                <li> Windos/Mac-OS</li>
-            </ul>
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies I work with</p>
             </div>
-            <div class='right-box'><span>Data Visualization</span>
-            <ul>
-                <li>Power BI</li>
-            </ul>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up">
+                    <h3 class="category-title">Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">PowerShell</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="category-title">Tools & Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Wireshark</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Packet Tracer</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Raspberry Pi</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CentOS Linux</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Power BI</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        </div>
-        </section>
-
-
-<!-- Job Experience Section -->
-<section id="Experience">
-    <div class="container">
-        <h2 style="text-align: center;">Job Experience</h2>
-        <div class="job-experience-grid">
-            <div class="job-card">
-                <h3> <span>Enrollment Services Call Center</span></h3>
-                <p><strong>Student Worker</strong></p>
-                <p>Jan 2024 - Present</p><br>
-                <p>
-                • Effectively handled a high volume of inbound and outbound calls, providing information, guidance, and support to
-                students and stakeholders in a professional manner. <br> <br>
-                • Implemented effective follow-up procedures through both calls and emails, ensuring that outstanding issues were
-                tracked and resolved in a timely manner. <br> <br>
-                • Maintained a high standard of customer service, consistently receiving positive feedback from callers for
-                professionalism, accuracy, and helpfulness.
-                </p>
-            </div>
-            <div class="job-card">
-                <h3> <span>Desk Assistant </span></h3>
-                <p><strong>University Housing</strong></p>
-                <p>Aug 2024 - Present</p> <br>
-               <p>
-                • Managed day-to-day operations, check-ins/outs, and room swaps, ensuring a well-organized front desk environment. <br> <br>
-                • Handled administrative tasks such as answering phones, managing emails, and processing requests efficiently, while
-                maintaining a high level of customer service.<br> <br>
-                • Assisted residents with inquiries and concerns, providing timely information and ensuring their needs were met.<br> <br>
-                • Monitored building security by verifying resident identification and enforcing housing policies.<br> <br>
-                
-               </p>
-            </div>
-            <div class="job-card">
-                <h3> <span>Event Planner</span></h3>
-                <p><strong>Office of Sustainability</strong></p>
-                <p>August 2024 - Present</p><br>
-                <p>
-                    • Collaborated on sustainability initiatives that increased student engagement by 25%, promoting eco-friendly practices
-                    across campus. <br> <br>
-                    • Assisted in organizing and coordinating events, resulting in a 30% growth in attendance and awareness of environmental
-                    issues.<br> <br>
-                    • Managed administrative tasks such as communication, scheduling, and data collection, streamlining operations and
-                    improving efficiency by 15%.<br> <br>
-                    • Contributed to the development and implementation of sustainability strategies, achieving a reduction in campus waste by
-                    10%.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-</section>
-
-
-
-<!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-                <form >
-                    <label for="fname">First and Last name</label><br>
-                    <input type="text" id="fname" name="fname"><br>
-                    <label for="lname">Email address</label><br>
-                    <input type="text" id="lname" name="lname"><br>
-                    <label for="lname">Phone Number</label><br>
-                    <input type="number" id="lname" name="lname"><br>
-                    <label for="lname">Comments</label><br>
-                    <input type="text" id="lname" name="lname"><br> <br>
-                    <input type="submit" value="Submit"> <br> <br>
-    
-            </form>
-            <p>Email: <a href="mailto:khadkara@mail.uc.edu" target="_blank">khadkara@mail.uc.edu</a></p>
-            <p><a href="https://www.linkedin.com/in/rukshakhadka/" target="_blank">Linkedin</a> | <a href="https://github.com/Rukshaaa" target="_blank">GitHub</a> | <a href="https://devpost.com/khadkara?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="_blank">Devpost</a></p>
         </div>
     </section>
 
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Work Experience</h2>
+                <p class="section-subtitle">My professional journey</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Student Worker</h3>
+                            <span class="timeline-company">Enrollment Services Call Center</span>
+                            <span class="timeline-date">Jan 2024 - Present</span>
+                        </div>
+                        <div class="timeline-description">
+                            <ul>
+                                <li>Effectively handled high volume of inbound and outbound calls, providing information and support to students</li>
+                                <li>Implemented effective follow-up procedures through calls and emails, ensuring timely issue resolution</li>
+                                <li>Maintained high customer service standards with consistent positive feedback</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Desk Assistant</h3>
+                            <span class="timeline-company">University Housing</span>
+                            <span class="timeline-date">Aug 2024 - Present</span>
+                        </div>
+                        <div class="timeline-description">
+                            <ul>
+                                <li>Managed day-to-day operations, check-ins/outs, and room swaps</li>
+                                <li>Handled administrative tasks including phone calls, emails, and request processing</li>
+                                <li>Assisted residents with inquiries and monitored building security</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Event Planner</h3>
+                            <span class="timeline-company">Office of Sustainability</span>
+                            <span class="timeline-date">Aug 2024 - Present</span>
+                        </div>
+                        <div class="timeline-description">
+                            <ul>
+                                <li>Collaborated on sustainability initiatives increasing student engagement by 25%</li>
+                                <li>Assisted in organizing events resulting in 30% growth in attendance</li>
+                                <li>Managed administrative tasks improving efficiency by 15%</li>
+                                <li>Contributed to sustainability strategies achieving 10% reduction in campus waste</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:khadkara@mail.uc.edu">khadkara@mail.uc.edu</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/rukshakhadka/" target="_blank">Connect with me</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💻</div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/Rukshaaa" target="_blank">View my code</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🚀</div>
+                        <div class="contact-details">
+                            <h4>Devpost</h4>
+                            <a href="https://devpost.com/khadkara?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="_blank">See my projects</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Ruksha. All Rights Reserved.</p>
+            <div class="footer-content">
+                <p>&copy; 2024 Ruksha Khadka. All rights reserved.</p>
+                <p>Built with passion for cybersecurity and technology</p>
+            </div>
         </div>
     </footer>
-</body>
 
+    <script src="script.js"></script>
+</body>
 </html>
